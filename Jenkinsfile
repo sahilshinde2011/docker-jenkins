@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    imagename = "kevalnagda/flaskapp"
-    registryCredential = 'kevalnagda'
+    imagename = "riddhigala18/docker-pipeline"
+    registryCredential = 'riddhigala18'
     dockerImage = ''
   }
   agent any
